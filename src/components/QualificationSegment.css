@@ -1,0 +1,55 @@
+.qualification-segment {
+    background-color: #fafafa;
+    display: flex;
+}
+
+.qualification-segment-wrapper {
+    max-width: 800px;
+    min-width: 545px;
+    border-radius: 10px;
+    background-color: rgb(38, 133, 197);
+    padding: 20px 40px;
+    margin: 40px auto;
+}
+
+.logo {
+    font-size: 100px;
+    text-align: center;
+}
+
+.qualification-name-result {
+    text-align: center;
+}
+
+.institution {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.brief {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.module-list-wrapper {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.module-list {
+    list-style: none;
+    padding-right: 25px;
+}
+
+.module-results-list {
+    list-style: none;
+}
+
+.module-list-item {
+    padding-bottom: 3px;
+}
+
+.result-item {
+    font-weight: bold;
+}

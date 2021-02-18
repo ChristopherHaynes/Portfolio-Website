@@ -58,23 +58,18 @@ export default function Navbar() {
                   Projects
                 </Link>
               </li>
-              <li className='nav-btn'>
+              <li className='nav-item'>
                 {button ? (
-                  <Link to='/sign-up' className='btn-link'>
-                    <Button 
-                      buttonStyle='btn--outline'>
-                      Extra Curricular
-                    </Button>
+                  <Link to='/sign-up' 
+                  className='nav-links'
+                  onclick={closeMobileMenu}>
+                      Extracurricular                  
                   </Link>
                 ) : (
-                  <Link to='/sign-up' className='btn-link'>
-                    <Button 
-                      buttonStyle='btn--outline'
-                      buttonSize='btn--mobile'
-                      onClick={closeMobileMenu}
-                    >
-                      Extra Curricular
-                    </Button>
+                  <Link to='/sign-up' 
+                  className='nav-links'   
+                  onClick={closeMobileMenu}>     
+                      Extracurricular
                   </Link>
                 )}
               </li>
